@@ -1,0 +1,14 @@
+{
+  "name": "@aaronmacken/typescript-config-react-application-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Aaron Macken",
+  "license": "ISC",
+  "files": [
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
