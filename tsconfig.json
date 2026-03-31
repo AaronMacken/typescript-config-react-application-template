@@ -1,21 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
-    "paths": {
-      "@components": ["components/index"],
-      "@components/*": ["components/*"],
-      "@context": ["context/index"],
-      "@context/*": ["context/*"],
-      "@hooks": ["hooks/index"],
-      "@hooks/*": ["hooks/*"],
-      "@utils": ["utils/index"],
-      "@utils/*": ["utils/*"],
-      "@constants": ["constants/index"],
-      "@constants/*": ["constants/*"],
-      "@customTypes": ["customTypes/index"],
-      "@customTypes/*": ["customTypes/*"]
-    },
-    "outDir": "./dist/",
     "noImplicitAny": true,
     "module": "ESNext",
     "target": "ESNext",
@@ -27,6 +11,5 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
-  },
-  "include": ["src/**/*"]
+  }
 }
